@@ -13,27 +13,16 @@
 		37A3DE481CF93D8500A58583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A3DE471CF93D8500A58583 /* Assets.xcassets */; };
 		37A3DE4B1CF93D8500A58583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A3DE491CF93D8500A58583 /* LaunchScreen.storyboard */; };
 		37A3DE561CF93D8500A58583 /* CapitalMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A3DE551CF93D8500A58583 /* CapitalMeTests.swift */; };
-		37A3DE611CF93D8500A58583 /* CapitalMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A3DE601CF93D8500A58583 /* CapitalMeUITests.swift */; };
 		37A3DE701CF9407100A58583 /* bangkok.json in Resources */ = {isa = PBXBuildFile; fileRef = 37A3DE6E1CF9407100A58583 /* bangkok.json */; };
 		37A3DE711CF9407100A58583 /* bangkok.json in Resources */ = {isa = PBXBuildFile; fileRef = 37A3DE6E1CF9407100A58583 /* bangkok.json */; };
-		37A3DE721CF9407100A58583 /* bangkok.json in Resources */ = {isa = PBXBuildFile; fileRef = 37A3DE6E1CF9407100A58583 /* bangkok.json */; };
 		37A3DE731CF9407100A58583 /* notfound.json in Resources */ = {isa = PBXBuildFile; fileRef = 37A3DE6F1CF9407100A58583 /* notfound.json */; };
 		37A3DE741CF9407100A58583 /* notfound.json in Resources */ = {isa = PBXBuildFile; fileRef = 37A3DE6F1CF9407100A58583 /* notfound.json */; };
-		37A3DE751CF9407100A58583 /* notfound.json in Resources */ = {isa = PBXBuildFile; fileRef = 37A3DE6F1CF9407100A58583 /* notfound.json */; };
 		60F4283E7A839D546375C9EB /* Pods_CapitalMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A940FBCCD91101F62AFAEA /* Pods_CapitalMeTests.framework */; };
-		7D2C8A1E471AEEBA68649A0C /* Pods_CapitalMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7486D42C27DF27D47B586A1B /* Pods_CapitalMeUITests.framework */; };
 		DB109ACB3096848904B250D1 /* Pods_CapitalMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57ED191F1CF69D6DF346D573 /* Pods_CapitalMe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		37A3DE521CF93D8500A58583 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 37A3DE351CF93D8500A58583 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 37A3DE3C1CF93D8500A58583;
-			remoteInfo = CapitalMe;
-		};
-		37A3DE5D1CF93D8500A58583 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 37A3DE351CF93D8500A58583 /* Project object */;
 			proxyType = 1;
@@ -54,15 +43,11 @@
 		37A3DE511CF93D8500A58583 /* CapitalMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapitalMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A3DE551CF93D8500A58583 /* CapitalMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapitalMeTests.swift; sourceTree = "<group>"; };
 		37A3DE571CF93D8500A58583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37A3DE5C1CF93D8500A58583 /* CapitalMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapitalMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		37A3DE601CF93D8500A58583 /* CapitalMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapitalMeUITests.swift; sourceTree = "<group>"; };
-		37A3DE621CF93D8500A58583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37A3DE6E1CF9407100A58583 /* bangkok.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bangkok.json; sourceTree = "<group>"; };
 		37A3DE6F1CF9407100A58583 /* notfound.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = notfound.json; sourceTree = "<group>"; };
 		42A940FBCCD91101F62AFAEA /* Pods_CapitalMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CapitalMeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50E347D04D8FF0362C175528 /* Pods-CapitalMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapitalMeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CapitalMeUITests/Pods-CapitalMeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		57ED191F1CF69D6DF346D573 /* Pods_CapitalMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CapitalMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7486D42C27DF27D47B586A1B /* Pods_CapitalMeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CapitalMeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C397CABE61246714BFC04932 /* Pods-CapitalMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapitalMeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CapitalMeTests/Pods-CapitalMeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E6F5FF9BEC80934C3BB9B4AC /* Pods-CapitalMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapitalMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-CapitalMe/Pods-CapitalMe.release.xcconfig"; sourceTree = "<group>"; };
 		EDF331F4450F765DA02A0DEE /* Pods-CapitalMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapitalMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CapitalMe/Pods-CapitalMe.debug.xcconfig"; sourceTree = "<group>"; };
@@ -86,14 +71,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37A3DE591CF93D8500A58583 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7D2C8A1E471AEEBA68649A0C /* Pods_CapitalMeUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -104,7 +81,6 @@
 				37A3DE6F1CF9407100A58583 /* notfound.json */,
 				37A3DE3F1CF93D8500A58583 /* CapitalMe */,
 				37A3DE541CF93D8500A58583 /* CapitalMeTests */,
-				37A3DE5F1CF93D8500A58583 /* CapitalMeUITests */,
 				37A3DE3E1CF93D8500A58583 /* Products */,
 				EC0F01A0280C70A3C56B863C /* Pods */,
 				E7E1EDD6434AB2CEEA52EFE8 /* Frameworks */,
@@ -116,7 +92,6 @@
 			children = (
 				37A3DE3D1CF93D8500A58583 /* CapitalMe.app */,
 				37A3DE511CF93D8500A58583 /* CapitalMeTests.xctest */,
-				37A3DE5C1CF93D8500A58583 /* CapitalMeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,21 +118,11 @@
 			path = CapitalMeTests;
 			sourceTree = "<group>";
 		};
-		37A3DE5F1CF93D8500A58583 /* CapitalMeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				37A3DE601CF93D8500A58583 /* CapitalMeUITests.swift */,
-				37A3DE621CF93D8500A58583 /* Info.plist */,
-			);
-			path = CapitalMeUITests;
-			sourceTree = "<group>";
-		};
 		E7E1EDD6434AB2CEEA52EFE8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				57ED191F1CF69D6DF346D573 /* Pods_CapitalMe.framework */,
 				42A940FBCCD91101F62AFAEA /* Pods_CapitalMeTests.framework */,
-				7486D42C27DF27D47B586A1B /* Pods_CapitalMeUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -182,12 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37A3DE651CF93D8500A58583 /* Build configuration list for PBXNativeTarget "CapitalMe" */;
 			buildPhases = (
-				423DD6B6685914A5FCECE00C /* Check Pods Manifest.lock */,
+				423DD6B6685914A5FCECE00C /* [CP] Check Pods Manifest.lock */,
 				37A3DE391CF93D8500A58583 /* Sources */,
 				37A3DE3A1CF93D8500A58583 /* Frameworks */,
 				37A3DE3B1CF93D8500A58583 /* Resources */,
-				1F13C0E78F9958D769E2ACB2 /* Embed Pods Frameworks */,
-				ECB49989738D488A3218E49B /* Copy Pods Resources */,
+				1F13C0E78F9958D769E2ACB2 /* [CP] Embed Pods Frameworks */,
+				ECB49989738D488A3218E49B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,12 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37A3DE681CF93D8500A58583 /* Build configuration list for PBXNativeTarget "CapitalMeTests" */;
 			buildPhases = (
-				6A54859827E5034A362D4AA2 /* Check Pods Manifest.lock */,
+				6A54859827E5034A362D4AA2 /* [CP] Check Pods Manifest.lock */,
 				37A3DE4D1CF93D8500A58583 /* Sources */,
 				37A3DE4E1CF93D8500A58583 /* Frameworks */,
 				37A3DE4F1CF93D8500A58583 /* Resources */,
-				9193C5C21E0D876C41B54EBF /* Embed Pods Frameworks */,
-				735B2A043D0CE6D0E17AEE65 /* Copy Pods Resources */,
+				9193C5C21E0D876C41B54EBF /* [CP] Embed Pods Frameworks */,
+				735B2A043D0CE6D0E17AEE65 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -218,26 +183,6 @@
 			productName = CapitalMeTests;
 			productReference = 37A3DE511CF93D8500A58583 /* CapitalMeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		37A3DE5B1CF93D8500A58583 /* CapitalMeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 37A3DE6B1CF93D8500A58583 /* Build configuration list for PBXNativeTarget "CapitalMeUITests" */;
-			buildPhases = (
-				F29DA741C174BF3A9DFD027C /* Check Pods Manifest.lock */,
-				37A3DE581CF93D8500A58583 /* Sources */,
-				37A3DE591CF93D8500A58583 /* Frameworks */,
-				37A3DE5A1CF93D8500A58583 /* Resources */,
-				E315426A9F98DD54B77AC23A /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				37A3DE5E1CF93D8500A58583 /* PBXTargetDependency */,
-			);
-			name = CapitalMeUITests;
-			productName = CapitalMeUITests;
-			productReference = 37A3DE5C1CF93D8500A58583 /* CapitalMeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -253,10 +198,6 @@
 						CreatedOnToolsVersion = 7.3.1;
 					};
 					37A3DE501CF93D8500A58583 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 37A3DE3C1CF93D8500A58583;
-					};
-					37A3DE5B1CF93D8500A58583 = {
 						CreatedOnToolsVersion = 7.3.1;
 						TestTargetID = 37A3DE3C1CF93D8500A58583;
 					};
@@ -277,7 +218,6 @@
 			targets = (
 				37A3DE3C1CF93D8500A58583 /* CapitalMe */,
 				37A3DE501CF93D8500A58583 /* CapitalMeTests */,
-				37A3DE5B1CF93D8500A58583 /* CapitalMeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -304,26 +244,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37A3DE5A1CF93D8500A58583 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				37A3DE751CF9407100A58583 /* notfound.json in Resources */,
-				37A3DE721CF9407100A58583 /* bangkok.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1F13C0E78F9958D769E2ACB2 /* Embed Pods Frameworks */ = {
+		1F13C0E78F9958D769E2ACB2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,14 +262,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CapitalMe/Pods-CapitalMe-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		423DD6B6685914A5FCECE00C /* Check Pods Manifest.lock */ = {
+		423DD6B6685914A5FCECE00C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,14 +277,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		6A54859827E5034A362D4AA2 /* Check Pods Manifest.lock */ = {
+		6A54859827E5034A362D4AA2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,14 +292,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		735B2A043D0CE6D0E17AEE65 /* Copy Pods Resources */ = {
+		735B2A043D0CE6D0E17AEE65 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,14 +307,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CapitalMeTests/Pods-CapitalMeTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9193C5C21E0D876C41B54EBF /* Embed Pods Frameworks */ = {
+		9193C5C21E0D876C41B54EBF /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,49 +322,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CapitalMeTests/Pods-CapitalMeTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E315426A9F98DD54B77AC23A /* Copy Pods Resources */ = {
+		ECB49989738D488A3218E49B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CapitalMeUITests/Pods-CapitalMeUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ECB49989738D488A3218E49B /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CapitalMe/Pods-CapitalMe-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F29DA741C174BF3A9DFD027C /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -456,14 +357,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37A3DE581CF93D8500A58583 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				37A3DE611CF93D8500A58583 /* CapitalMeUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -471,11 +364,6 @@
 			isa = PBXTargetDependency;
 			target = 37A3DE3C1CF93D8500A58583 /* CapitalMe */;
 			targetProxy = 37A3DE521CF93D8500A58583 /* PBXContainerItemProxy */;
-		};
-		37A3DE5E1CF93D8500A58583 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 37A3DE3C1CF93D8500A58583 /* CapitalMe */;
-			targetProxy = 37A3DE5D1CF93D8500A58583 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -632,30 +520,6 @@
 			};
 			name = Release;
 		};
-		37A3DE6C1CF93D8500A58583 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3CEA73C0EDAAA256116CC8B /* Pods-CapitalMeUITests.debug.xcconfig */;
-			buildSettings = {
-				INFOPLIST_FILE = CapitalMeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.olarn.CapitalMeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = CapitalMe;
-			};
-			name = Debug;
-		};
-		37A3DE6D1CF93D8500A58583 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50E347D04D8FF0362C175528 /* Pods-CapitalMeUITests.release.xcconfig */;
-			buildSettings = {
-				INFOPLIST_FILE = CapitalMeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.olarn.CapitalMeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = CapitalMe;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -682,15 +546,6 @@
 			buildConfigurations = (
 				37A3DE691CF93D8500A58583 /* Debug */,
 				37A3DE6A1CF93D8500A58583 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		37A3DE6B1CF93D8500A58583 /* Build configuration list for PBXNativeTarget "CapitalMeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				37A3DE6C1CF93D8500A58583 /* Debug */,
-				37A3DE6D1CF93D8500A58583 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

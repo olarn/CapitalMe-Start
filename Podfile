@@ -7,13 +7,10 @@ use_frameworks!
 target 'CapitalMe' do
   pod 'Alamofire', '~> 3.4'
   pod 'SwiftyJSON'
+  pod 'Swinject'
 end
 
 target 'CapitalMeTests' do
   pod 'SwiftyJSON'
+  pod 'Swinject'
 end
-
-target 'CapitalMeUITests' do
-  pod 'SwiftyJSON'
-end
-
